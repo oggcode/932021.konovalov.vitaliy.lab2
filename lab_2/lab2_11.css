@@ -1,0 +1,9 @@
+.content {
+	overflow: auto;
+	background-color: aqua;
+	border: 2px solid green;
+}
+
+img {
+	float: right;
+}

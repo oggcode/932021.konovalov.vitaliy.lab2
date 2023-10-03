@@ -1,0 +1,38 @@
+body {
+	width: 100%;
+}
+
+.left-aside {
+	width: 25%;
+}
+
+aside, main {
+  float: left;
+}
+
+.right-aside {
+	float: right;
+	width: 200px;
+	padding: 0 10px 10px;
+	background: var(--yellow-color);
+}
+
+main {
+  width: 65%; 
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	background-color: black;
+	clear: right;
+	text-align: center;
+}
+
+a {
+	color: gold;
+}

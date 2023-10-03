@@ -1,0 +1,28 @@
+.block-1 {
+	max-width: 500px;
+	width: 100%;
+}
+
+.block-2 {
+	overflow: auto;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.content-2 {
+	clear: both;
+}
+
+@media (max-width: 960px) {
+	.block-1 {
+		width: 150px;
+	}
+}
+
+@media (min-width: 960px) {
+	.block-2 {
+		background-color: darkgray;
+		/* Костыль */
+		margin-left: 305px;
+	}
+}

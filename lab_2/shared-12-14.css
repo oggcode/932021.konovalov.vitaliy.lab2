@@ -1,0 +1,28 @@
+.blue-block {
+	background-color: aqua;
+	border: green 2px solid;
+}
+
+.block-1 {
+	float: left;
+	background-color: bisque;
+	height: 80px;
+	width: 300px;
+}
+
+.block-2 {
+	background-color: darkgray;
+	/* Костыль */
+	margin-left: 305px;
+	margin-right: 5px;
+}
+
+.content-2 {
+	clear: both;
+}
+
+img {
+	float: right;
+	width: 50%;
+	height: 50%;
+}

@@ -1,0 +1,18 @@
+body {
+	display: flex;
+	justify-content: center;
+	min-width: 700px;
+	overflow-x: auto;
+}
+
+main {
+	width: 600px;
+	background-color: blue;
+	color: white;
+}
+
+img {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}

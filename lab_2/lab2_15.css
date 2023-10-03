@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+.container > div {
+	background-color: aquamarine;
+	display: inline-block;
+	width: 215px;
+	height: 100px;
+	margin: 10px;
+}
+
+footer {
+	background-color: bisque;
+	width: 100%;
+}
+
+@media(max-width: 730px) {
+	.container {
+		text-align: center;
+	}
+}

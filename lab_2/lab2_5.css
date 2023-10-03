@@ -1,0 +1,21 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content {
+	width: 500px;
+	color: white;
+	margin-top: 20px;
+}
+
+.bg-green {
+	background-color: green;
+}
+
+.bg-blue {
+	padding: 50px;
+	border: 1px solid transparent;
+	background-color: blue;
+}

@@ -1,0 +1,33 @@
+body {
+	display: flex;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.list {
+	width: 200px;
+	background-color: bisque;
+	flex: 1;
+	max-height: 100px;
+}
+
+.content {
+	background-color: darkgray;
+}
+
+.blue-block {
+	background-color: aqua;
+	flex: 1;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: limegreen;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,49 @@
+* {
+	color: #fff;
+}
+
+.block {
+	width: 150px;
+	height: 100px;
+}
+
+.block-1 {
+	background-color: blueviolet;
+}
+
+.block-2 {
+	background-color: darkred;
+	position: relative;
+}
+
+.block-3 {
+	background-color: peru;
+	position: relative;
+	left: 30px;
+	bottom: 30px;
+}
+
+.parent {
+	background-color: indianred;
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+
+.child {
+	background-color: indigo;
+	position: absolute;
+	right: 0px;
+	bottom: 80px;
+	width: 300px;
+	height: 200px;
+}
+
+.fixed-block {
+	background-color: green;
+	width: 100px;
+	height: 120px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}

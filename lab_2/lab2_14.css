@@ -1,0 +1,33 @@
+.blue-block {
+	overflow: hidden;
+}
+
+.block-1 {
+	width: 500px;
+}
+
+.block-2 {
+	overflow: auto;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+ul {
+	background-color: bisque;
+}
+
+@media(max-width: 900px) {
+	.block-1 {
+		width: 100%;
+		height: 0;
+	}
+
+	li {
+		display: inline;
+	}
+
+	.block-2 {
+		margin-top: 50px;
+		clear: left;
+	}
+}

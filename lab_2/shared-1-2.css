@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	height: 100%;
+}
+
+header {
+	background: var(--grey-color);
+	height: 90px;
+}
+
+.left-aside {
+	float: left;
+	width: 200px;
+	background: var(--lime-color);
+	padding: 0 10px 10px;
+	margin-right: 5px;
+}
+
+footer {
+	background-color: #000;
+	clear: left;
+	text-align: center;
+	height: 46px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.font-red {
+	color: red;
+}
+
+b {
+	font-size: 1.1rem;
+}
+
+a {
+	color: var(--gold-color);
+	display: block;
+	transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+}
+
+h1 {
+	padding: 15px 10px 0 ;
+	margin: 0;
+}
